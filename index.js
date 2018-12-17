@@ -36,7 +36,7 @@ const parseToriDatetime = (str) => {
   )
 
   return DateTime
-    .fromFormat(str, 'dd MMM HH:mm')
+    .fromFormat(str, 'd MMM HH:mm')
     .toJSDate()
 }
 
