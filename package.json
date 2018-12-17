@@ -1,12 +1,14 @@
 {
   "name": "parse-tori-datetime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse tori datetimes",
   "repository": "raine/parse-tori-datetime",
-  "author": "Raine Virta <raine.virta@gmail.com>",
-  "main": "index.js",
-  "keywords": ["tori", "date"],
   "author": "",
+  "main": "index.js",
+  "keywords": [
+    "tori",
+    "date"
+  ],
   "license": "ISC",
   "dependencies": {
     "luxon": "^1.8.2"
