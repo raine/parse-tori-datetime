@@ -15,6 +15,11 @@ const MONTHS = {
   jou: 'dec'
 }
 
+// Examples of expected input:
+// tänään 12:30
+// eilen 09:30
+// 12 jou 15:19
+// 10 mar 19:45
 const parseToriDatetime = (str) => {
   const today = DateTime.local()
   const yesterday = today.minus({ days: 1 })
